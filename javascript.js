@@ -2,6 +2,7 @@ var member1 = "http://www.google.com";
 var member2 = "https://www.cpp.edu/";
 var member3 = "http://yahoo.com";
 var link = document.createElement("a");
+link.setAttribute("id","newLink");
 
 //create event handler for button and fires function
 document.getElementById("printInfo").onclick = function() {
