@@ -8,7 +8,7 @@ document.getElementById("printInfo").onclick = function() {
     var textInput = document.getElementById("textbox").value;
     var numberInput = document.getElementById("numberbox").value;
     console.log(textInput + " " + numberInput);
-    document.getElementById("results").innerHTML = textInput + " " + numberInput;
+    document.getElementById("link").innerHTML = textInput + " " + numberInput;
     linkLogic(numberInput);
 };
 
