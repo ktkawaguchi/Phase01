@@ -1,4 +1,23 @@
-/* Navbar container */
+body {
+  background-color: #333;
+  color: antiquewhite;
+}
+
+a {
+  color: darkcyan;
+}
+
+div {
+  border-color: darkslategrey;
+  border-style: solid;
+  border-width: 3px;
+}
+
+input, textarea {
+  background-color: #333;
+  color: antiquewhite;
+}
+
 .navbar {
     overflow: hidden;
     background-color: gray;
@@ -6,8 +25,7 @@
     margin-bottom: 20px;
   }
   
-  /* Links inside the navbar */
-  .navbar a {
+.navbar a {
     float: left;
     font-size: 16px;
     color: white;
@@ -16,98 +34,74 @@
     text-decoration: none;
   }
   
-  /* The dropdown container */
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
   
-  /* Dropdown button */
-  .dropdown .dropbutton {
-    font-size: 16px; 
-    min-width: 160px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
-  }
+/* Dropdown button */
+.dropdown .dropbutton {
+  font-size: 16px; 
+  min-width: 160px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
   
-  /* Add a gray background color to navbar links on hover */
-  .navbar a:hover, .dropdown:hover .dropbutton {
-    background-color: dimgray;
-  }
+/* Add a gray background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbutton {
+  background-color: dimgray;
+}
   
-  /* Dropdown content (hidden by default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: dimgray;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: dimgray;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
   
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    float: none;
-    color: white;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
   
-  /* Add a white background color to dropdown links on hover */
-  .dropdown-content a:hover {
-    background-color: darkgray;
-  }
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+/* Add a darkgrey background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: darkgray;
+}
 
-  #results {
-    color: chocolate;
-  }
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
 
-  body {
-    background-color: #333;
-    color: antiquewhite;
-  }
+#results {
+  color: chocolate;
+  margin-top: 10px;
+}
 
-  a {
-    color: darkcyan;
-  }
+#newLink {
+  font-weight: 900;
+  font-style: italic;
+}
 
-  input, textarea {
-    background-color: #333;
-    color: antiquewhite;
-  }
+#newLink:hover {
+  color: cornflowerblue;
+  font-size: 120%;
+}
 
-  #newLink {
-    font-weight: 900;
-    font-style: italic;
-  }
-
-  #newLink:hover {
-    color: cornflowerblue;
-    font-size: 120%;
-  }
-
-  #newLink:visited {
-    color: darkgoldenrod;
-  }
-
-  div {
-    border-color: darkslategrey;
-    border-style: solid;
-    border-width: 3px;
-  }
-
-  #results {
-    margin-top: 10px;
-  }
+#newLink:visited {
+  color: darkgoldenrod;
+}
